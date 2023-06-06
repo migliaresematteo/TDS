@@ -288,6 +288,11 @@ html .fa-brands {
   margin: 20px;
 }
 
+.max-content {
+  width: -moz-max-content !important;
+  width: max-content !important;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     background-color: transparent !important;

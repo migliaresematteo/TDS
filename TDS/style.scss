@@ -286,6 +286,9 @@ html {
 	bottom: 0;
 	margin: 20px;
 }
+.max-content {
+	width: max-content !important;
+}
 @media (min-width: 992px) {
 	#mainNav {
 		background-color: $background-color_4 !important;
