@@ -204,7 +204,14 @@ html {
 				-webkit-animation: pulse 2s infinite;
 				animation: pulse512 1.5s infinite;
 			   }
-		   }
+		}
+		.action-btn-red {
+			background-image: linear-gradient(30deg, rgb(224, 186, 20), rgb(224, 220, 20));
+			color: #ffffff7c;
+			&:hover {
+				animation: none;
+			}
+		}
 		   .circle::before {
 			content: "•";
 			color: var(--lightgreen);

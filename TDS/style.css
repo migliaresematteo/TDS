@@ -192,6 +192,13 @@ html body .action-btn:hover {
   background-size: 200% auto;
   animation: pulse512 1.5s infinite;
 }
+html body .action-btn-red {
+  background-image: linear-gradient(30deg, rgb(224, 186, 20), rgb(224, 220, 20));
+  color: rgba(255, 255, 255, 0.4862745098);
+}
+html body .action-btn-red:hover {
+  animation: none;
+}
 html body .circle::before {
   content: "•";
   color: var(--lightgreen);
