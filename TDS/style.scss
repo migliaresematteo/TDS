@@ -94,6 +94,10 @@ html {
 			min-width: 100%;
 			background: linear-gradient(to bottom, rgba(47, 54, 39, 0.6274509804) 60%, var(--pearl) 100%), url("images/bg-masthead.jpg") no-repeat scroll center;
 			background-size: cover;
+			.test {
+background: linear-gradient(to bottom, rgba(47, 54, 39, 0.6274509804) 60%, var(--pearl) 100%), url("images/immagine bioetica edizioni passate.jpg") no-repeat scroll center !important;
+			background-size: cover;
+			} 
 			.header-title {
 				color: $color_1 !important;
 			}
